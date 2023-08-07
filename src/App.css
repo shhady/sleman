@@ -4,8 +4,7 @@
 .homePageContainer {
   /* position: relative; */
   width: 100vw;
-  height: calc(100vh - 70px);
-  max-height: fit-content;
+  height: fit-content;
   background-color: black;
   /* min-height: 100vh; */
   overflow:hidden;
@@ -66,6 +65,7 @@
     /* background-color: #0f0f0f; */
     margin: 10px auto;
     border-radius: 10px;
+    max-height: 3vh;
   }
   
 
@@ -261,7 +261,8 @@ font-family: 'Josefin Sans', sans-serif;
   }
   .detailsAnimation{
     animation: slideInFromLeft 0.5s ease-in-out;
-
+    height: fit-content;
+    padding: 0px 0px 10px 0px;
   }
 @keyframes slideInFromLeft {
     0% {

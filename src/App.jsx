@@ -104,7 +104,7 @@ function App() {
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", padding:"20px 20px 20px 40px",}}>
       נכסים
     </summary>
-    
+    sfsf
 </details>
 {/* <details  style={{ color:"white"}}>
     <summary  style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer", color:"white", marginBottom:"20px", padding:"20px 20px 0px 40px",}}>

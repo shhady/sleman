@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   max-width: 100vh;
+  height:100vh ;
 }
 
 a {

@@ -4,7 +4,7 @@
 .homePageContainer {
   /* position: relative; */
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 70px);
   background-color: black;
   /* min-height: 100vh; */
   overflow:hidden;

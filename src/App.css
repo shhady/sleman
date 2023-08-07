@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@500&display=swap');
+
+
+.homePageContainer {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  /* min-height: 100vh; */
+  overflow:hidden;
+  margin-bottom: 60px;
+}
+.icons-carousel .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+  .contentDiv {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    /* position: relative; */
+    height: 40vh;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .backgroundImageContainer {
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 42%;
+    border-bottom-right-radius: 42%;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  .backgroundImage{
+    background-image: url("./assets/photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 280px;
+    /* border-radius: 50%; */
+    margin-top: -30px;
+  }
+ 
+
+  .details{
+    width: 98%;
+    margin: 5px auto;
+  }
+  .icons {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+    overflow: hidden; /* Hide the overflow so that icons outside the container won't be visible */
+    /* background-color: #0f0f0f; */
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  
+
+  
+  .iconT{
+    height: 30px;
+    width: 30px;
+    color: rgb(138, 138, 138);
+
+  }
+
+  .Name {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    /* font-family:cursive; */
+    color: white;
+    text-shadow: 2px 2px 5px rgb(156, 151, 151);
+    z-index: 9;
+    margin: 20px;
+    animation: zoomInTech 1s forwards;  }
+   
+  .Job{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+    color: goldenrod;
+    letter-spacing: 2px;
+    /* margin-top: 160px; */
+    text-shadow: 2px 2px 5px rgb(109, 108, 108);
+    z-index: 9;
+    animation: zoomInTech 1s forwards;
+    margin-top: -40px;
+  }
+
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0px 40px 20px 40px;
+    animation: zoomInTech 1s forwards;
+
+  }
+  .workExp{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0px 40px 20px 40px;
+    animation: slideInFromLeft 0.5s ease-in-out;
+
+  }
+  .about{
+    padding: 0px 20px 20px 40px;
+    color: white;
+    animation: slideInFromLeft 0.5s ease-in-out;
+    
+  }
+  .logoOfProject1{
+    width: 100%;
+    height: 20vh;
+    background-image: url("/public/funan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    text-shadow: 4px 4px 10px rgb(230, 230, 230)
+  }
+  .logoOfProject{
+    width: 100%;
+    height: 20vh;
+    background-image: url("/public/TopPickInvestment.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    text-shadow: 4px 4px 10px rgb(230, 230, 230)
+  }
+ .social-icons {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  z-index: 9;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.iconEmail {
+  color: white;
+  font-size: 22px;
+}
+
+.iconFacebook {
+  color: white;
+  font-size: 22px;
+}
+
+.iconInstagram {
+  color: white;
+  font-size: 22px;
+}
+
+.iconPhone {
+  color: white;
+  font-size: 18px;
+}
+
+.tech{
+  font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:cursive;
+    color: #cfcfcf;
+    z-index: 9;
+    margin: 40px 0px 40px 0px;
+    text-shadow: 2px 2px 5px rgb(109, 108, 108);
+    animation: zoomInTech 1s forwards;
+
+}
+
+
+
+.techs{
+  font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family:monospace;
+    color: #ffffff;
+    z-index: 9;
+    margin: 0px 0px 20px 0px;
+    text-shadow: 2px 2px 5px rgb(109, 108, 108);
+    animation: zoomInTech 1s forwards;
+
+}
+@keyframes zoomInTech {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  
+  .circleBehindPicture {
+   width: 100%;
+   height: 100%;
+    background-color: rgba(31, 29, 29, 0.8);
+    
+  }
+  
+  .thePicture {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/proPic.png");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+  }
+  .detailsAnimation{
+    animation: slideInFromLeft 0.5s ease-in-out;
+
+  }
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @media (max-width: 600px) {
+    .contentDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-right: 50px; */
+      color: #fff;
+    }
+  }
+  
+  
